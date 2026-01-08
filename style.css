@@ -1,3 +1,35 @@
 * {
   font-family: "Inter";
 }
+
+.btn {
+  background-color: #30B868;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 5px;
+  border: #30B868 1px solid;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* .continar {
+  width: 85%;
+} */
+
+/* Header section */
+header {
+  padding: 16px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+}
+
+header div nav ul {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  font-size: 16px;
+  font-weight: 500;
+}
