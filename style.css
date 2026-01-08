@@ -206,3 +206,75 @@ header div nav ul li:hover {
 .solution-section div ul li .fa-solid {
   color: #30B868;
 }
+
+.cta-banner {
+  width: 85%;
+  margin: 60px auto;
+  background-color: #f7f6f2;
+  text-align: center;
+  justify-items: center;
+  padding: 80px 0px;
+  border-radius: 10px;
+}
+
+.cta-banner h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #001931;
+}
+
+.cta-banner p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 600px;
+  padding: 16px 0px 24px 0px;
+  color: #627382;
+}
+
+footer {
+  background-color: #001931;
+  color: white;
+}
+
+footer .footer-continer {
+  width: 85%;
+  margin: auto;
+  padding: 80px 0px 30px;
+}
+
+footer .footer-continer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+
+footer .footer-continer .footer-content h3 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500px;
+  color: #fff;
+}
+
+footer .footer-continer .footer-content .Social-box {
+  width: 220px;
+  justify-content: left;
+}
+
+footer .footer-continer .footer-content .Social-box .social-icon {
+  padding-top: 16px;
+}
+
+footer .footer-continer .footer-content .Social-box .social-icon a {
+  padding-right: 16px;
+}
+
+footer .footer-continer .copyright-text p {
+  padding-top: 30px;
+  border-top: solid 1px #2e4256;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #FAFAFA;
+}
