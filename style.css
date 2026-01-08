@@ -128,12 +128,12 @@ header div nav ul li:hover {
   padding: 16px 0 44px 0px;
 }
 
-.second-section .continer div {
+.second-section .continer .card-box {
   display: flex;
   gap: 24px;
 }
 
-.second-section .continer div div {
+.second-section .continer .card-box .card {
   color: #001931;
   padding: 24px;
   border-radius: 5px;
@@ -142,17 +142,17 @@ header div nav ul li:hover {
   box-shadow: 5px 5px 50px 20px #00000005;
 }
 
-.second-section .continer div div img {
+.second-section .continer .card-box .card img {
   padding-top: 30px;
 }
 
-.second-section .continer div div h3 {
+.second-section .continer .card-box .card h3 {
   font-size: 24px;
   font-weight: 600;
   padding: 16px 0px;
 }
 
-.second-section .continer div div p {
+.second-section .continer .card-box .card p {
   font-size: 16px;
   color: #627382;
   line-height: 20px;
