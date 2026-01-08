@@ -157,3 +157,52 @@ header div nav ul li:hover {
   color: #627382;
   line-height: 20px;
 }
+
+/* Solution section */
+.solution-section {
+  margin: auto;
+  width: 85%;
+  display: flex;
+  padding: 60px 0;
+  gap: 60px;
+  align-items: center;
+}
+
+.solution-section div h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #30B868;
+  font-weight: 500;
+}
+
+.solution-section div h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  padding: 16px 0px;
+}
+
+.solution-section div p {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #627382;
+}
+
+.solution-section div ul {
+  list-style: none;
+  list-style-position: inside;
+  padding-top: 40px;
+}
+
+.solution-section div ul li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #001931;
+  padding-bottom: 16px;
+}
+
+.solution-section div ul li .fa-solid {
+  color: #30B868;
+}
