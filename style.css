@@ -102,3 +102,58 @@ header div nav ul li:hover {
   padding: 12px 16px;
   cursor: pointer;
 }
+
+/* Second Section */
+.second-section {
+  background-color: #fbfbfb;
+}
+
+.continer {
+  margin: auto;
+  width: 85%;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.second-section .continer h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+}
+
+.second-section .continer p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #627382;
+  padding: 16px 0 44px 0px;
+}
+
+.second-section .continer div {
+  display: flex;
+  gap: 24px;
+}
+
+.second-section .continer div div {
+  color: #001931;
+  padding: 24px;
+  border-radius: 5px;
+  display: block;
+  background-color: white;
+  box-shadow: 5px 5px 50px 20px #00000005;
+}
+
+.second-section .continer div div img {
+  padding-top: 30px;
+}
+
+.second-section .continer div div h3 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 16px 0px;
+}
+
+.second-section .continer div div p {
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+}
