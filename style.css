@@ -13,6 +13,14 @@
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
+  transition: 300ms;
+}
+
+.btn:hover {
+  background-color: #f95555;
+  border: solid 1px #f95555;
+  box-shadow: 4px 4px 50px 20px #ffffff10;
+  transform: scale(.95);
 }
 
 /* .continar {
@@ -20,7 +28,7 @@
 } */
 
 /* Header section */
-header {
+#header {
   padding: 16px 0px;
   display: flex;
   justify-content: space-between;
@@ -29,7 +37,7 @@ header {
   margin: auto;
 }
 
-header div nav ul {
+#header nav ul {
   display: flex;
   list-style: none;
   gap: 32px;
@@ -37,22 +45,22 @@ header div nav ul {
   font-weight: 500;
 }
 
-header div nav ul li {
+#header nav ul li {
   cursor: pointer;
   transition: 200ms;
 }
 
-header div nav ul li:hover {
+#header nav ul li:hover {
   color: #30B868;
 }
 
-.hero-section {
-  background-image: url(Images/Hero.png);
+#hero-section {
+  background-image: linear-gradient(#00193180), url(Images/Hero.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.hero-section .hero-content {
+#hero-section .hero-content {
   width: 85%;
   margin: auto;
   text-align: center;
@@ -60,7 +68,7 @@ header div nav ul li:hover {
   justify-items: center;
 }
 
-.hero-section .hero-content .btn1 {
+#hero-section .btn1 {
   background-color: white;
   padding: 8px 12px;
   border-radius: 100px;
@@ -69,7 +77,7 @@ header div nav ul li:hover {
   font-weight: 500;
 }
 
-.hero-section .hero-content h1 {
+#hero-section .hero-content h1 {
   font-size: 70px;
   line-height: 84px;
   font-weight: bold;
@@ -82,7 +90,7 @@ header div nav ul li:hover {
   color: #30B868;
 }
 
-.hero-section .hero-content p {
+#hero-section .hero-content p {
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -91,20 +99,29 @@ header div nav ul li:hover {
   padding-bottom: 32px;
 }
 
-.hero-section .hero-content .btn2 {
+#hero-section .hero-content .btn2 {
   background-color: transparent;
   border-radius: 5px;
   color: white;
   font-size: 16px;
   font-weight: 500;
-  margin-top: 32px;
+  margin-left: 16px;
   border: solid 1px white;
   padding: 12px 16px;
   cursor: pointer;
+  transition: 300ms;
 }
 
-/* Second Section */
-.second-section {
+#hero-section .hero-content .btn2:hover {
+  background-color: #f95555;
+  color: #ffffff;
+  border: solid 1px #f95555;
+  box-shadow: 4px 4px 50px 20px #ffffff10;
+  transform: scale(.95);
+}
+
+/* Note Section */
+#note-section {
   background-color: #fbfbfb;
 }
 
@@ -115,51 +132,65 @@ header div nav ul li:hover {
   text-align: center;
 }
 
-.second-section .continer h2 {
+#note-section .continer h2 {
   font-size: 48px;
   font-weight: bold;
   color: #001931;
 }
 
-.second-section .continer p {
+#note-section .continer p {
   font-size: 16px;
   font-weight: 400;
   color: #627382;
   padding: 16px 0 44px 0px;
 }
 
-.second-section .continer .card-box {
+#note-section .continer .card-box {
   display: flex;
   gap: 24px;
 }
 
-.second-section .continer .card-box .card {
+#note-section .continer .card-box .card {
   color: #001931;
   padding: 24px;
   border-radius: 5px;
   display: block;
   background-color: white;
+  transition: 300ms;
+  cursor: pointer;
   box-shadow: 5px 5px 50px 20px #00000005;
 }
 
-.second-section .continer .card-box .card img {
-  padding-top: 30px;
+#note-section .continer .card-box .card:hover {
+  box-shadow: 5px 5px 50px 20px #00000015;
 }
 
-.second-section .continer .card-box .card h3 {
+#note-section .continer .card-box .card i {
+  background-color: #f95555;
+  color: #FAFAFA;
+  font-size: 25px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+}
+
+#note-section .continer .card-box .card h3 {
   font-size: 24px;
   font-weight: 600;
   padding: 16px 0px;
 }
 
-.second-section .continer .card-box .card p {
+#note-section .continer .card-box .card p {
   font-size: 16px;
   color: #627382;
   line-height: 20px;
 }
 
-/* Solution section */
-.solution-section {
+/* Brain section */
+#brain-section {
   margin: auto;
   width: 85%;
   display: flex;
@@ -168,34 +199,43 @@ header div nav ul li:hover {
   align-items: center;
 }
 
-.solution-section div h3 {
+#brain-section div {
+  width: 50%;
+}
+
+#brain-section div img {
+  width: 100%;
+  max-width: 600px;
+}
+
+#brain-section div h3 {
   text-transform: uppercase;
   font-size: 16px;
   color: #30B868;
   font-weight: 500;
 }
 
-.solution-section div h2 {
+#brain-section div h2 {
   font-size: 48px;
   font-weight: bold;
   color: #001931;
   padding: 16px 0px;
 }
 
-.solution-section div p {
+#brain-section div p {
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
   color: #627382;
 }
 
-.solution-section div ul {
+#brain-section div ul {
   list-style: none;
   list-style-position: inside;
   padding-top: 40px;
 }
 
-.solution-section div ul li {
+#brain-section div ul li {
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -203,11 +243,12 @@ header div nav ul li:hover {
   padding-bottom: 16px;
 }
 
-.solution-section div ul li .fa-solid {
+#brain-section div ul li .fa-solid {
   color: #30B868;
 }
 
-.cta-banner {
+/* Early Access Section */
+#early-access-section {
   width: 85%;
   margin: 60px auto;
   background-color: #f7f6f2;
@@ -217,13 +258,13 @@ header div nav ul li:hover {
   border-radius: 10px;
 }
 
-.cta-banner h2 {
+#early-access-section h2 {
   font-size: 40px;
   font-weight: bold;
   color: #001931;
 }
 
-.cta-banner p {
+#early-access-section p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -232,44 +273,52 @@ header div nav ul li:hover {
   color: #627382;
 }
 
-footer {
+/* Footer Section */
+#footer {
   background-color: #001931;
   color: white;
 }
 
-footer .footer-continer {
+#footer .footer-continer {
   width: 85%;
   margin: auto;
   padding: 80px 0px 30px;
 }
 
-footer .footer-continer .footer-content {
+#footer .footer-continer .footer-content {
   display: flex;
   justify-content: space-between;
   padding-bottom: 80px;
 }
 
-footer .footer-continer .footer-content h3 {
+#footer .footer-continer .footer-content h3 {
   font-size: 20px;
   line-height: 28px;
   font-weight: 500px;
   color: #fff;
 }
 
-footer .footer-continer .footer-content .Social-box {
+#footer .footer-continer .footer-content .Social-box {
   width: 220px;
   justify-content: left;
 }
 
-footer .footer-continer .footer-content .Social-box .social-icon {
+#footer .footer-continer .footer-content .Social-box .social-icon {
   padding-top: 16px;
 }
 
-footer .footer-continer .footer-content .Social-box .social-icon a {
+#footer .footer-continer .footer-content .Social-box .social-icon i {
   padding-right: 16px;
+  color: #ffffff;
+  font-size: 25px;
+  transition: 200ms;
 }
 
-footer .footer-continer .copyright-text p {
+#footer .footer-continer .footer-content .Social-box .social-icon i:hover {
+  color: #30B868;
+}
+
+#footer .footer-continer .copyright-text p {
   padding-top: 30px;
   border-top: solid 1px #2e4256;
   font-size: 16px;
